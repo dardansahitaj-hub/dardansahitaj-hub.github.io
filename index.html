@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1 id="titre">Hello World</h1>
-    <h2>Yes, ça marche!</h2>
-    <a href="about.html">A propos de nous</a>
-    <button id="mon-bouton" aria-placeholder="Rendre le titre rouge">Mon bouton</button>
+    <div class="bg-gray-900 m-5 p-8 text-gray-200 leading-8 rounded w-1/2 shadow font-sans underline text-2xl italic font-bold">
+        <h1 id="titre">Hello World</h1>
+        <h2>Yes, ça marche!</h2>
+        <a href="about.html">A propos de nous</a> <br />
+        <button id="mon-bouton" class="text-right">Mon bouton</button>
+    </div>
+
+    <div class="bg-black text-white">
+        <h1 id="titre">Hello World</h1>
+        <h2>Yes, ça marche!</h2>
+        <a href="about.html">A propos de nous</a>
+        <button id="mon-bouton">Mon bouton</button>
+    </div>
+
+    <div class="bg-green-900 text-red font-sans opacity-50 p-5">
+        <h2>Super titre</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo natus voluptatum, cum ex perferendis magnam veritatis perspiciatis mollitia nam aspernatur possimus expedita exercitationem quos ducimus eum sit porro ut dolore?</p>
+    </div>
+    <div class="bg-red-900 text-blue font-mono p-5">
+        <h2>Super titre</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo natus voluptatum, cum ex perferendis magnam veritatis perspiciatis mollitia nam aspernatur possimus expedita exercitationem quos ducimus eum sit porro ut dolore?</p>
+    </div>
+
+
 
     <script src="main.js"></script>
 </body>
